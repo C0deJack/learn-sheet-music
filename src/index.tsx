@@ -5,7 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  // eslint-disable-next-line prettier/prettier
+  document.getElementById('root') as HTMLElement // TODO - fix prettier error here
 );
 root.render(
   <React.StrictMode>
